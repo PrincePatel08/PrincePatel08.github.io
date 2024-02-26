@@ -174,7 +174,7 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #0563bbaf;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -502,7 +502,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f2f3f5;
+  background: #e2e3e4;
 }
 
 .skills .progress-bar {
@@ -515,6 +515,30 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-primary {
+  font-family: Raleway-Bold;
+  font-size: 18px;
+  color: rgba(5, 99, 187, 1);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(5, 99, 187, 0.5);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background: rgba(5, 99, 187, 0.75);
+  border: 2px solid rgba(5, 99, 187, 0.75);
+}
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
