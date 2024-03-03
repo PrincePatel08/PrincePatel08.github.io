@@ -271,6 +271,31 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.background-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.page-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-video-content {
+  position: relative;
+  z-index: 1;
+}
+
+video[poster] {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 #hero {
   width: 100%;
   height: 100vh;
@@ -819,6 +844,26 @@ section {
   padding: 0;
 }
 
+/* Dashed border */
+hr.dashed {
+  border-top: 3px dashed #404040;
+}
+
+/* Dotted border */
+hr.dotted {
+  border-top: 3px dotted #404040;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #404040;
+}
+
+/* Rounded border */
+hr.rounded {
+  border-top: 8px solid #404040;
+  border-radius: 5px;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
